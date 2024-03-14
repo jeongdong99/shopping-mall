@@ -1,0 +1,33 @@
+.basket-title {
+    text-align: center;
+}
+.basket-list-item-container {
+    display: flex;
+}
+.item-container {
+    display: flex;
+    flex:6;
+}
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    height: 250px;
+
+    object-fit: cover;
+}
+.item-image {
+    height: 100%;
+}
+.item-counter-container{
+    flex:3;
+}
+.item-delete-button-container{
+    flex:1;
+}
+
+.calculation-result-with-buy-btn {
+    display: flex;
+    justify-content: end;
+}

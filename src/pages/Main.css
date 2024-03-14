@@ -1,0 +1,97 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.category {
+    margin: 0 10px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-weight: 400;
+    
+}
+
+.category:hover {
+    background-color: #007bff;
+}
+.active {
+    background-color: #007bff;
+    color: white;
+}
+.truncate {
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+}
+/* Prb6: after applying wrapping to the product-table, the whole product is in the center of the page
+=> S: thinking... */
+.products-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product:hover {
+    scale: 1.02;
+}
+.product .container {
+    width: 180px;
+    height: 280px;
+}
+.product img {
+    width: 100%;
+    max-height: 230px;
+    object-fit: cover;
+    background-position: center;
+}
+.product img:hover {
+    cursor: pointer;
+}
+.product button:hover {
+    background-color: #0056b3; 
+  }
+.product button {
+    background-color: #007bff; /* Example background color for the button */
+    color: #fff; /* Example text color for the button */
+    padding: 8px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+}
+.button-price-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
